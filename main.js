@@ -16,7 +16,7 @@ closeShopping.addEventListener('click', ()=>{
 let products = [
   {
         id: 1,
-        name: "GOLF CAP",
+        name: "Golf Cap",
         image: 'redboycap.webp',
         price: '$548.00',
       },
