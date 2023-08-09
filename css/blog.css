@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+a{
+    text-decoration-line: none;
+}
+.header .headertop{
+    background-color: #f7f7f7;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    padding : 0 30px;
+    line-height: 44px;
+}
+.header .headertop .call_us{
+    display: flex;
+}
+.header .headertop .call_us .wishlist{
+    margin-right: 5px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.45;
+}
+.header .headertop .call_us .wishlist:hover{
+    color: #e9361f;
+}
+.header .headermiddle{
+    background-color: #ffffff;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+.header .headermiddle .searchicon .search_icon{
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+.header .headermiddle .searchicon{
+    line-height: 20px;
+}
+.header .headermiddle .searchicon .searching{
+    padding: 10px;
+}
+.header .headermiddle .information{
+    display: flex;
+}
+.header .headermiddle .information .account{
+    display: flex;
+    align-items: center;
+}
+.header .headermiddle .information .shopping{
+    display: flex;
+    padding: 0 0 0 55px;
+    align-items: center;
+}
+.header .headermiddle .information .account .word p
+{
+    color: black;
+}
+.header .headermiddle .information .account .word .my-account:hover{
+    color: red;
+}
+.header .headermiddle .information .account .word .getalloption{
+    font-size: 12px;
+    cursor: auto;
+}
+.header .headermiddle .information .account i {
+    background-color: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px;
+    font-size: 10px;
+}
+.header .headermiddle .account i:hover{
+    color: white;
+    background-color: #26d12d;
+    transition: 0.3s;
+}
+.header .headerbottom {
+    background-color: red;
+    height: 75px;
+}
+.header .headerbottom .list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    line-height: 65px;
+    letter-spacing: 1px;
+}
+.header .headerbottom .list li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 24px;
+    display: block;
+    cursor: pointer;}
+a{
+    text-decoration-line: none;
+}
+
+a{
+    text-decoration: none !important;
+}

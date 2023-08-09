@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User</title>
+  <link rel="stylesheet" href="./css/user.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <!-- <link rel = "stylesheet" href="../css/index.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header class="head">
+    <div class="head-top">
+        <div class="icon-logo">
+            <a href="./index.html"><img src="../img/logo.avif" alt=""></a>
+            <h1>Welcome to GolfShop</h1>
+        </div>
+        <div class="user-info">
+            <img src="https://kiemtientuweb.com/ckfinder/userfiles/images/avatar-fb/avatar-fb-1.jpg">
+            <div class="infomationnn">
+                <h4>Minh Duc</h4>
+                <h5>VIP</h5>
+            </div>
+        </div>
+    </div>
+    <div class="head-bottom">
+        <ul>
+            <li><a href="./html/index.html">HOME</a></li>
+            <li><a href="./html/product.html">PRODUCTS</a></li>
+            <li><a href="#">HISTORY</a></li>
+            <li><a href="#">MORE</a></li>
+        </ul>
+    </div>
+</header>
+<div class="body">
+    <div class="headerrrr">
+        <div class="formm">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button class="search" onclick="searchProducts()
+            ">Search</button>
+        </div>
+        <div class="shopping">
+            <img src="image/shopping.svg">
+            <span class="quantity">0</span>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1>Your Shopping Cart</h1>
+
+        <div class="list-products">
+        
+        </div>
+    </div>
+    <div class="card">
+        <h1>Card</h1>
+        <ul class="listCard">
+        </ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+</div>
+  <button onclick="signOut()">Sign Out</button>
+
+<script src="./main.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,263 @@
+
+.User .title{
+    display: flex;
+}
+.information a img{
+    width: 100px;
+    height: 100px;
+}
+.title img{
+    display: block;
+    width: 300px;
+    border-radius: 100%;
+    border: solid 2px grey;
+}
+.title h1{
+    line-height: 300px;
+}
+.title{
+    display: inline-block;
+}
+.dp{
+    display: flex;
+}
+.User{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    padding: 10px 40px;
+    text-align: center;
+}
+button {
+    height: 2.8em;
+    width: 9em;
+    background: transparent;
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+    border: 2px solid #016DD9;
+    outline: none;
+    color: blue;
+    font-size: 17px;
+   }
+   
+   button:hover {
+    background: #016DD9;
+    color: #ffffff;
+    animation: squeeze3124 0.9s both;
+   }
+   
+   @keyframes squeeze3124 {
+    0% {
+     -webkit-transform: scale3d(1, 1, 1);
+     transform: scale3d(1, 1, 1);
+    }
+   
+    30% {
+     -webkit-transform: scale3d(1.25, 0.75, 1);
+     transform: scale3d(1.25, 0.75, 1);
+    }
+   
+    40% {
+     -webkit-transform: scale3d(0.75, 1.25, 1);
+     transform: scale3d(0.75, 1.25, 1);
+    }
+   
+    50% {
+     -webkit-transform: scale3d(1.15, 0.85, 1);
+     transform: scale3d(1.15, 0.85, 1);
+    }
+   
+    65% {
+     -webkit-transform: scale3d(0.95, 1.05, 1);
+     transform: scale3d(0.95, 1.05, 1);
+    }
+   
+    75% {
+     -webkit-transform: scale3d(1.05, 0.95, 1);
+     transform: scale3d(1.05, 0.95, 1);
+    }
+   
+    100% {
+     -webkit-transform: scale3d(1, 1, 1);
+     transform: scale3d(1, 1, 1);
+    }
+   }
+   /* .body{
+    width: 70%;
+   } */
+   .body input{
+    width: 300px;
+    height: 50px;
+
+   }
+   .shopping img{
+    width: 50px;
+   }
+   .container header{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+   }
+
+
+   .list-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.list-products .item{
+    text-align: center;
+    background-color: #DCE0E1;
+    padding: 20px;
+    box-shadow: 0 50px 50px #757676;
+    letter-spacing: 1px;
+    width: 30%;
+}
+.list-products .item img{
+    width: 90%;
+    height: 430px;
+    object-fit: cover;
+}
+.list-products .item .title{
+    font-weight: 600;
+}
+.list-products .item .price{
+    margin: 10px;
+}
+.list-products .item button{
+    background-color: #1C1F25;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+.card{
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 500px;
+    background-color: #453E3B;
+    height: 100vh;
+    transition: 0.5s;
+}
+.active .card{
+    left: calc(100% - 500px);
+}
+.active .container{
+   transform: translateX(-200px);
+}
+.card h1{
+    color: #E8BC0E;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.card .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.card .checkOut div{
+    background-color: #E8BC0E;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card .checkOut div:nth-child(2){
+    background-color: #1C1F25;
+    color: #fff;
+}
+.listCard li{
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    color: #fff;
+    row-gap: 10px;
+}
+.listCard li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listCard li img{
+    width: 90%;
+}
+.listCard li button{
+    background-color: #fff5;
+    border: none;
+}
+.listCard .count{
+    margin: 0 10px;
+}
+.container{
+    margin: 100px 0;
+}
+.icon-logo{
+    display: flex;
+}
+.icon-logo h1{
+    line-height: 70px;
+    margin-left: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+
+}
+.user-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid grey;
+}
+.head-top{
+    display: flex;
+    justify-content: space-around;
+}
+.head-bottom ul{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 20px;
+}
+.head-bottom ul li{
+    list-style: none;
+    margin: 0 50px;
+}
+.head-bottom ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.headerrrr{
+    display: flex;
+    justify-content: space-between;
+}
+.container h1{
+    text-align: center;
+}
+.SpecialProduct{
+    margin: 20px 0;
+}
+div button{
+    width: 10px;
+    color: #fff;
+}
+.formm .search{
+    width: 150px;
+    color: blue;
+}
+
+a{
+    text-decoration: none !important;
+}

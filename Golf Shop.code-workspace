@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../add to cart"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "add to cart"
+	}
+}

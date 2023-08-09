@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+a{
+    text-decoration-line: none;
+}
+.header .headertop{
+    background-color: #f7f7f7;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    padding : 0 30px;
+    line-height: 44px;
+}
+.header .headertop .call_us{
+    display: flex;
+}
+.header .headertop .call_us .wishlist{
+    margin-right: 5px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.45;
+}
+.header .headertop .call_us .wishlist:hover{
+    color: #e9361f;
+}
+.header .headermiddle{
+    background-color: #ffffff;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+.header .headermiddle .searchicon .search_icon{
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+.header .headermiddle .searchicon{
+    line-height: 20px;
+}
+.header .headermiddle .searchicon .searching{
+    padding: 10px;
+}
+.header .headermiddle .information{
+    display: flex;
+}
+.header .headermiddle .information .account{
+    display: flex;
+    align-items: center;
+}
+.header .headermiddle .information .shopping{
+    display: flex;
+    padding: 0 0 0 55px;
+    align-items: center;
+}
+.header .headermiddle .information .account .word p
+{
+    color: black;
+}
+.header .headermiddle .information .account .word .my-account:hover{
+    color: red;
+}
+.header .headermiddle .information .account .word .getalloption{
+    font-size: 12px;
+    cursor: auto;
+}
+.header .headermiddle .information .account i {
+    background-color: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px;
+    font-size: 10px;
+}
+.header .headermiddle .account i:hover{
+    color: white;
+    background-color: #26d12d;
+    transition: 0.3s;
+}
+.header .headerbottom {
+    background-color: red;
+    height: 75px;
+}
+.header .headerbottom .list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    line-height: 65px;
+    letter-spacing: 1px;
+}
+.header .headerbottom .list li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 24px;
+    display: block;
+    cursor: pointer;
+}
+.footer-top{
+    background-color: #000;
+    color: white;
+    padding: 60px 50px;
+}
+.footer .footer-top{
+    display: flex;
+}
+.footer-top .setwidth{
+    width: 20%;
+    margin: 0 30px;
+}
+.footer-top{
+    padding-right: 30px;
+}
+.footer-top img{
+    padding: 5px 0 0;
+}
+.footer-help ul li{
+    list-style:none;
+    color: white;
+}
+.footerlogo p{
+    margin: 0 0 20px;
+}
+.footer-support ul li{
+    list-style:none;
+    color: white;
+}
+.footer-support ul li:hover{
+    color: green;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+.footer-help ul li:hover{
+    color: green;
+    margin-left: 10px;
+    transition: all 0.5s;
+}
+.footer-download{
+    color: white;
+}
+.footer-top h2{
+    Margin-bottom: 20px;
+}
+.footer-top li{
+    padding: 0 0 7px 0;
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer-top p{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer-contact a{
+    color: white;
+}
+.footer-contact p i{
+    margin-right: 10px;
+}
+.footer-contact a p i{
+    margin-right: 10px;
+}
+.footer-contact ul li{
+    list-style: none;
+    display: flex;
+}
+.footer-contact ul{
+    display: flex;
+}
+.footer-contact a:hover{
+    color: green;
+}
+left ul{
+    display: flex;
+    list-style:none;
+}
+.left ul li{
+    margin: 0 20px;
+    
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e9361f;
+    color: white;
+}
+.right p a{
+    color: white;
+ 
+}
+.left ul li a{
+    color: white;
+    font-weight: 100;
+    transition: all 0.5s;
+}
+.left ul li a:hover{
+    color: black;
+}
+.signup{
+    padding: 100px 0;
+    background-color: #f7f7f7
+}
+.account-signup-menu{
+    background-color: #f4f4f4;
+    padding: 60px 10px;
+    text-align: center;
+}
+.account-signup-menu p a{
+    color: #000;
+    margin-right: 10px;
+}
+.account-signup-menu p span{
+    margin-left: 10px;
+}
+.content{
+    padding: 0 28px;
+    width: 90%;
+    margin: 0 auto;
+}
+.content img{
+    width: 100%;
+}
+.blog-description{
+    margin: 0 0 30px;
+    padding: 30px;
+}
+.blog-description span{
+    margin: 0 0 10px 0;
+}
+.blog-description h1{
+    margin: 0 0 15px;
+    font-size: 16px;
+}
+.blog-description .info{
+    margin: 0 0 15px;
+}
+.blog-description p a{
+    color: #000;
+}
+.blog-description .shareicon i{
+    margin: 0 5px;
+}
+.blog-description .line{
+    width: 100%;
+    height: 1px;
+    background-color: #f7f7f7;
+    margin: 10px 0;
+}
+.blog-description .comment{
+    margin: 10px 0 10px 10px;
+    padding: 0 0 0 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+.datename .date{
+    margin: 0 20px 0 0;
+}
+.comments p{
+    margin: 10px 0;
+}
+.datename .line{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+
+}
+.NameEmail{
+    display: flex;
+}
+.NameEmail input{
+    margin-right: 20px;
+    padding: 14px 15px;
+    width: 50%;
+    display: block;
+}
+.nameinput{
+    margin-right: 10px;
+}
+textarea{
+    margin-top: 20px;
+    width:98.5%;
+}
+.blog-description form button{
+    background-color: red;
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    display: block;
+    margin-top: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.blog-description form button:hover{
+    background-color: #26d12d;
+}
+form p{
+    margin: 10px 0;
+    font-size: 14px;}
+
+a{
+    text-decoration: none !important;
+}
